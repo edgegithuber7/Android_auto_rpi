@@ -1,0 +1,8 @@
+# Append to /system/build.prop (adb root; adb remount first).
+
+# Stop the "listening at high volume" system re-capping the DAC
+# (it treats the line-out as headphones):
+audio.safemedia.bypass=true
+
+# Optional: skip the boot animation for faster boot:
+debug.sf.nobootanimation=1

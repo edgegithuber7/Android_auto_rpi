@@ -1,0 +1,6 @@
+# Append these lines to config_user.txt on the boot (FAT32) partition.
+# config_user.txt survives OS updates; config.txt may be replaced.
+
+# Force SDR - stop budget panels latching into HDR mode and locking
+# their OSD brightness/contrast controls (Pi 5 advertises HDR; Pi 4 doesn't).
+hdmi_ignore_hdr=1

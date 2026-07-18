@@ -1,0 +1,6 @@
+# Init service for volumefix.sh - keeps the monitor loop alive.
+# Install to /system/etc/init/volumefix.rc (chmod 644).
+# Disable without deleting: rename to volumefix.rc.disabled
+service volumefix /system/bin/sh /system/bin/volumefix.sh
+    class late_start
+    user root

@@ -1,0 +1,7 @@
+# Init service for autokitlaunch.sh - fires once per boot.
+# Install to /system/etc/init/autokitlaunch.rc (chmod 644).
+# Disable without deleting: rename to autokitlaunch.rc.disabled
+service autokitlaunch /system/bin/sh /system/bin/autokitlaunch.sh
+    class late_start
+    user root
+    oneshot

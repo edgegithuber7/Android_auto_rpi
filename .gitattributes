@@ -1,0 +1,11 @@
+* text=auto eol=lf
+
+# These get adb-pushed straight to an Android /system/bin/sh — CRLF breaks the shebang.
+scripts/*.sh text eol=lf
+tools/*.sh text eol=lf
+init/*.rc text eol=lf
+idc/*.idc text eol=lf
+boot/*.additions text eol=lf
+boot/*.commands text eol=lf
+
+*.docx binary

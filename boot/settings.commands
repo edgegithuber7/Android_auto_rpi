@@ -1,0 +1,3 @@
+# One-time settings-database changes (no root needed, persist across reboots):
+adb shell 'settings put global audio_safe_csd_enabled 0'
+adb shell 'settings put global audio_safe_volume_state 2'

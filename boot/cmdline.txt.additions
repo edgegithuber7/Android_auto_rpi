@@ -1,0 +1,7 @@
+# Append these parameters to the END of the SINGLE line in cmdline.txt
+# on the boot partition. cmdline.txt MUST remain one line - a stray
+# line break can prevent the Pi from booting. Print the file, copy the
+# whole line, rewrite it with the parameters appended, verify with cat.
+
+vc4.force_max_bpc=8
+usbcore.autosuspend=-1

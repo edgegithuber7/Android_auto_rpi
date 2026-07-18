@@ -1,3 +1,8 @@
 .DS_Store
 *.img
 *.zip
+
+# gui/
+__pycache__/
+*.pyc
+gui/backups/
